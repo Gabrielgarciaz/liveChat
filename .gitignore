@@ -1,0 +1,25 @@
+# Node.js (frontend)
+**/node_modules/
+**/dist/
+**/.next/
+**/build/
+
+# Java / Spring Boot (backend)
+**/target/
+**/*.log
+
+# IDEs e editores
+.idea/
+.vscode/
+*.iml
+
+# Ignorar dependências do projeto frontend
+/frontend/livechat-frontend/node_modules
+
+# SO e arquivos temporários
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
+*.env
